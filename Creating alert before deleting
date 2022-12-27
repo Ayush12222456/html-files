@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <script type="text/javascript">
+            function CanDelete()
+        {
+            return confirm("Are you sure to delete your Data");
+
+        }
+      </script>
+
+</head>
+<body>
+ <input type="submit" name="btnDelete" value="Delete" onclick ="return CanDelete()" />
+
+</body>
+</html>
