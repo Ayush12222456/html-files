@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+     function abc()
+    {
+
+
+
+
+  var num1=prompt("Enter first number  :","first");
+   var num2=prompt("Enter second number  :","second");
+   var sum=parseInt(num1) + parseInt(num2);
+        document.write("The Sum is  :" + sum);
+    }
+
+  </script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="submit" onclick="abc()">
+</body>
+</html>
